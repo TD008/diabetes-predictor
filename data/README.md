@@ -7,3 +7,5 @@ used from each of the files
 
 Link to the NHANES page:
 https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?cycle=2017-2020
+*Note- More information can be found about the data files by looking under the "Data, Documentation, Codebooks"
+section of the web page linked above
