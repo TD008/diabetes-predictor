@@ -1,11 +1,5 @@
 import os
-
-import numpy as np
 import pandas as pd
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import train_test_split
-from sklearn.svm import SVC
-from tqdm import tqdm
 
 
 def openFile(fn1):
@@ -160,26 +154,3 @@ X = processedData.drop(["DIQ010", "DIQ160"], axis=1)
 Y1 = processedData["DIQ010"]
 Y2 = processedData["DIQ160"]
 
-
-# Split the dataset into random training and testing sets. This uses
-# random_state = 1 which ensures that the output will be reproducible across
-# multiple calls
-X_train, X_test, y_train, y_test = train_test_split(
-    X, Y1, test_size=0.3, random_state=1
-)
-
-# Create the SVM classifier
-# clf = SVC(kernel='linear', C=1, gamma='auto')
-
-
-# Fit the classifier to the training data
-# for i in tqdm(range(10)):
-# clf.fit(X_train, y_train)
-
-
-# Predict the target values for the testing data
-# y_pred = clf.predict(X_test)
-
-
-# Evaluate the model performance
-# print("Accuracy:", accuracy_score(y_test, y_pred))
