@@ -1,7 +1,5 @@
-Source code
+Features folder contains scripts that turn raw data into features 
 
-features folder contains scripts that turn raw data into features 
-
-models folder contains scripts that train models for use in predictions
+Models folder contains scripts that train models for use in predictions
 
 
